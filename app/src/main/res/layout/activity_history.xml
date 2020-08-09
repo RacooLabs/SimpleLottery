@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoryActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/delete_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".activity.MainActivity" />
+
+    <TextView
+        android:id="@+id/TextView_noHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No History"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="@+id/my_recycler_view"
+        app:layout_constraintRight_toRightOf="@+id/my_recycler_view"
+        app:layout_constraintLeft_toLeftOf="@+id/my_recycler_view"
+        app:layout_constraintBottom_toBottomOf="@+id/my_recycler_view"
+        />
+
+
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7972968096388401/3966857179"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        ads:layout_constraintRight_toRightOf="parent">
+
+    </com.google.android.gms.ads.AdView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        app:layout_constraintBottom_toTopOf="@+id/adView2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:src="@drawable/round_delete_forever_24"
+
+        app:backgroundTint="@color/design_default_color_primary"
+        android:layout_margin="12dp"
+        android:clickable="true"
+        app:fabSize="normal"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

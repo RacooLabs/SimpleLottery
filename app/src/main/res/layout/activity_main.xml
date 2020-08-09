@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/test_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/all_ball"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/ballLine1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/ball_object1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="111"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/round_color"
+
+                />
+
+            <TextView
+                android:id="@+id/ball_object2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="111"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/round_color"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/ball_object3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="111"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/round_color"
+                />
+
+            <TextView
+                android:id="@+id/ball_object4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="3dp"
+                android:background="@drawable/round_color"
+                android:gravity="center"
+                android:text="111"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/ball_object5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="111"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/round_color"/>
+            <TextView
+                android:id="@+id/ball_object6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="111"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/round_color"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ballLine2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/ball_object7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="111"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/round_color"/>
+
+            <TextView
+                android:id="@+id/ball_object8"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="111"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/round_color"/>
+
+            <TextView
+                android:id="@+id/ball_object9"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="111"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/round_color"/>
+            <TextView
+                android:id="@+id/ball_object10"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="111"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/round_color"/>
+            <TextView
+                android:id="@+id/ball_object11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="111"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/round_color"/>
+            <TextView
+                android:id="@+id/ball_object12"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="111"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/round_color"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ballLine3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/ball_object13"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="111"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/round_color"/>
+
+            <TextView
+                android:id="@+id/ball_object14"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="111"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/round_color"/>
+
+            <TextView
+                android:id="@+id/ball_object15"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="111"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/round_color"/>
+            <TextView
+                android:id="@+id/ball_object16"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="111"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/round_color"/>
+            <TextView
+                android:id="@+id/ball_object17"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="111"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/round_color"/>
+            <TextView
+                android:id="@+id/ball_object18"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="111"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/round_color"/>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/plusLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:text="+"
+                android:gravity="center"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bonusBallLine1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/bonus_ball_object1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="111"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/round_color"/>
+
+            <TextView
+                android:id="@+id/bonus_ball_object2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="111"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/round_color"/>
+
+            <TextView
+                android:id="@+id/bonus_ball_object3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="111"
+                android:layout_margin="3dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/round_color"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/start_button"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/btn_purple_color"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Go!"
+        android:textColor="@color/white"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/adView1"
+        app:layout_constraintTop_toBottomOf="@+id/all_ball"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_history"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="@+id/start_button"
+        app:layout_constraintLeft_toRightOf="@+id/start_button"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/start_button"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/round_history_24"
+            />
+
+
+    </LinearLayout>
+
+
+    <NumberPicker
+        android:id="@+id/pick_ball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:theme="@style/numberPickerCustomSize"
+        app:layout_constraintBottom_toBottomOf="@+id/all_ball"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/all_ball"
+        app:layout_constraintTop_toTopOf="@+id/all_ball"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/pick_ball"
+        app:layout_constraintLeft_toLeftOf="@+id/pick_ball"
+        app:layout_constraintRight_toRightOf="@+id/pick_ball" />
+
+    <NumberPicker
+        android:id="@+id/all_ball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="12dp"
+        android:background="#00FFFFFF"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:theme="@style/numberPickerCustomSize"
+        app:layout_constraintBottom_toTopOf="@+id/start_button"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintLeft_toRightOf="@+id/pick_ball"
+        app:layout_constraintRight_toLeftOf="@+id/bonus_ball"
+        app:layout_constraintTop_toBottomOf="@+id/test_view" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/all_ball"
+        app:layout_constraintLeft_toLeftOf="@+id/all_ball"
+        app:layout_constraintRight_toRightOf="@+id/all_ball" />
+
+    <NumberPicker
+        android:id="@+id/bonus_ball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:theme="@style/numberPickerCustomSize"
+        app:layout_constraintBottom_toBottomOf="@+id/all_ball"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintLeft_toRightOf="@+id/all_ball"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/all_ball" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bonus"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/bonus_ball"
+        app:layout_constraintLeft_toLeftOf="@+id/bonus_ball"
+        app:layout_constraintRight_toRightOf="@+id/bonus_ball" />
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7972968096388401/3966857179"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        ads:layout_constraintRight_toRightOf="parent"></com.google.android.gms.ads.AdView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
